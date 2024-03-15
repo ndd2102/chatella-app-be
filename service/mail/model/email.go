@@ -9,8 +9,8 @@ import (
 const (
 	_host                = "smtp.gmail.com"
 	_address             = "smtp.gmail.com:587"
-	_senderEmail         = "20021478@vnu.edu.vn" // FROM
-	_applicationPassword = "khqpqplyrqquevxq"    //PASSWORD
+	_senderEmail         = "20020181@vnu.edu.vn" // FROM
+	_applicationPassword = "octagfffbrdbwibv"    //PASSWORD
 )
 
 var _defaultAuth = smtp.PlainAuth("", _senderEmail, _applicationPassword, _host)
