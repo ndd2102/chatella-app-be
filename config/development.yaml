@@ -1,6 +1,6 @@
 ## Server Configuration
 SERVER_NAME: "web-service"
-SERVER_IP: "127.0.0.1"
+SERVER_IP: "0.0.0.0"
 SERVER_PORT: "8080"
 SERVER_STORE_PATH: "./config/stores"
 SERVER_UPLOAD_PATH: "./config/uploads"
@@ -18,10 +18,10 @@ CRYPT_PUBLIC_KEY_FILE: "./config/keys/public.key"
 ## Database Configuration
 
 DB_DRIVER: "postgres"
-DB_HOST: "127.0.0.1"
+DB_HOST: "demo-postgresql.ac-test.svc.cluster.local"
 DB_PORT: "5432"
 DB_USER: "postgres"
-DB_PASSWORD: "password"
+DB_PASSWORD: "password123"
 DB_NAME: "web_service"
 
 ## Local Cache Configuration
